@@ -1,0 +1,27 @@
+# Maven
+**/target/
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Android build artifacts
+apps/android/.gradle/
+apps/android/**/build/
+apps/android/.cxx/
+apps/android/local.properties
+*.apk
+*.aab
+
+# iOS build artifacts
+apps/ios/build/
+apps/ios/DerivedData/
+apps/ios/**/*.xcworkspace/
+apps/ios/**/*.xcuserdata/
+apps/ios/**/*.xcuserstate
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
