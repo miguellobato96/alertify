@@ -80,3 +80,5 @@ alertify/
 3. Verify:
    - `http://localhost:8080/api/health`
    - `http://localhost:8080/actuator/health` (if Actuator is enabled)
+
+Ruleset/CI validation PR.
